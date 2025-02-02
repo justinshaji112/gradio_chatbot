@@ -37,4 +37,4 @@ chatbot = gr.ChatInterface(
     submit_btn="⬅ Send"
 )
 
-chatbot.launch()
+chatbot.launch(share=True)
